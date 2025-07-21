@@ -20,6 +20,7 @@ const Header = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
           <a href="#courses" className="text-foreground hover:text-primary transition-colors">Courses</a>
+          <a href="#roadmaps" className="text-foreground hover:text-primary transition-colors">Roadmaps</a>
           <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
@@ -46,6 +47,7 @@ const Header = () => {
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
             <a href="#courses" className="text-foreground hover:text-primary transition-colors">Courses</a>
+            <a href="#roadmaps" className="text-foreground hover:text-primary transition-colors">Roadmaps</a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
             <Button variant="hero" size="sm" className="mt-4">
